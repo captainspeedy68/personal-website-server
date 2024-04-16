@@ -8,9 +8,6 @@ const port = process.env.port || 8000;
 app.use(cors());
 app.use(express.json());
 
-// personal-server
-// a63BWIaOHEbbNlLc
-
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.gry2hbo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
